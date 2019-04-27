@@ -75,17 +75,23 @@ In this project, we designed and developed a Chinese music mood classification A
 
 ## Final Project: LoL Game Result Prediction
 ### Summary
-LoL is the abbreviation of “League of Legends”, which is one of the most popular games in the world. In recent years, LoL has become an e-sport, and the seasonal championships are attracting more and more attention.
-In this project, we will build a prediction model using MLP (Multi-Layer Perceptron), and use the datasets scraped from a Chinese game platform (https://www.wanplus.com/lol/) to train and test the machine learning model. Our goal is to predict the game result and its probability between a selected Chinese team and another team consists of 5 players. We will also develop a web application and deploy it online.
+In this project, our goal is to predict the LoL game result and its probability between two selected teams. We firstly scraped team and player data from a Chinese game platform (https://www.wanplus.com/lol/)  and did the data processing and feature engineering. Then, we built a prediction model using 3 machine learning models: Random Forest, Linear Regression, and MLP (Multi-Layer Perceptron). Evaluation criteria of the models was Confusion Matrix. We also developed a web application and deploy it on cloud for users.
 
 ### Tools and Methods
-- Data scraping: Beautiful Soup
+- Web scraping: Beautiful Soup
 - Data processing and EDA
 - Model building: Neural Network (MLP)
-- Model evaluation: MAPE, confusion matrix
+- Model evaluation: Confusion Matrix
 - Hyper-parameter tuning
-- Model comparison and selection: AutoML
+- Model comparison and selection
 - Web App DevOps: FLASK framework, heroku platform
 
 ### Links
-To be determined...
+1. Project proposal:
+https://codelabs-preview.appspot.com/?file_id=10prnfsaBoCaZXKREt6pIizqJujCCcLkeOaHM0BdjBGw#0
+2. Project report:
+https://codelabs-preview.appspot.com/?file_id=1t-AAXeMMHuEWYM5cMhXco-RmhpMWnF2Hmcx2U3FQftA#0
+3. Online Web App:
+https://flask-info6105-lol-predict-app.herokuapp.com/
+4. Presentation slides:
+https://docs.google.com/presentation/d/1HjdWhQDDwOfTSJ2D7eJt6Nur3FaEk4ChYVUsSlMpiXQ/edit?usp=sharing
